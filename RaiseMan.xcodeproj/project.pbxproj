@@ -14,6 +14,7 @@
 		D155A84D1C12CC9200C4DC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D155A84B1C12CC9200C4DC50 /* Main.storyboard */; };
 		D155A8581C12CC9200C4DC50 /* RaiseManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155A8571C12CC9200C4DC50 /* RaiseManTests.swift */; };
 		D155A8631C12CC9200C4DC50 /* RaiseManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155A8621C12CC9200C4DC50 /* RaiseManUITests.swift */; };
+		D155A8711C12CCE400C4DC50 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155A8701C12CCE400C4DC50 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D155A85E1C12CC9200C4DC50 /* RaiseManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D155A8621C12CC9200C4DC50 /* RaiseManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseManUITests.swift; sourceTree = "<group>"; };
 		D155A8641C12CC9200C4DC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D155A8701C12CCE400C4DC50 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D155A8491C12CC9200C4DC50 /* Assets.xcassets */,
 				D155A84B1C12CC9200C4DC50 /* Main.storyboard */,
 				D155A84E1C12CC9200C4DC50 /* Info.plist */,
+				D155A8701C12CCE400C4DC50 /* Employee.swift */,
 			);
 			path = RaiseMan;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D155A8461C12CC9200C4DC50 /* ViewController.swift in Sources */,
+				D155A8711C12CCE400C4DC50 /* Employee.swift in Sources */,
 				D155A8441C12CC9200C4DC50 /* AppDelegate.swift in Sources */,
 				D155A8481C12CC9200C4DC50 /* Document.swift in Sources */,
 			);

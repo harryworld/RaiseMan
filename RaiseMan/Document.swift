@@ -9,7 +9,7 @@
 import Cocoa
 
 class Document: NSDocument {
-
+    
     override init() {
         super.init()
         // Add your subclass-specific initialization here.
