@@ -771,6 +771,7 @@
                                                 <binding destination="M8H-st-ZHC" name="content" keyPath="arrangedObjects" id="ujP-tb-cbJ"/>
                                                 <binding destination="M8H-st-ZHC" name="selectionIndexes" keyPath="selectionIndexes" previousBinding="ujP-tb-cbJ" id="UCK-1n-x82"/>
                                                 <binding destination="M8H-st-ZHC" name="sortDescriptors" keyPath="sortDescriptors" previousBinding="UCK-1n-x82" id="TBO-sY-SGv"/>
+                                                <outlet property="dataSource" destination="5gI-5U-AMq" id="VN0-GB-hho"/>
                                             </connections>
                                         </tableView>
                                     </subviews>

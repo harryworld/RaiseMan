@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, NSTableViewDataSource {
 
     var employees: [Employee] = []
     
@@ -24,6 +24,9 @@ class ViewController: NSViewController {
         }
     }
 
-
+    func tableView(tableView: NSTableView, sortDescriptorsDidChange oldDescriptors: [NSSortDescriptor]) {
+        let sortDescriptors = tableView.sortDescriptors
+        print("sort \(sortDescriptors)")
+    }
 }
 
