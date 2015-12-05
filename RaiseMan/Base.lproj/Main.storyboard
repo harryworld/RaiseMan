@@ -755,7 +755,11 @@
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>
                                                                     <connections>
-                                                                        <binding destination="iHF-Gi-HGQ" name="value" keyPath="objectValue.raise" id="hgP-Ei-Ptt"/>
+                                                                        <binding destination="iHF-Gi-HGQ" name="value" keyPath="objectValue.raise" id="9rm-PP-6gL">
+                                                                            <dictionary key="options">
+                                                                                <bool key="NSValidatesImmediately" value="YES"/>
+                                                                            </dictionary>
+                                                                        </binding>
                                                                     </connections>
                                                                 </textField>
                                                             </subviews>
