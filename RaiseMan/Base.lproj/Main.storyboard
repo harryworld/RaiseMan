@@ -698,6 +698,7 @@
                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
+                                                    <sortDescriptor key="sortDescriptorPrototype" selector="caseInsensitiveCompare:" sortKey="name"/>
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="HzL-QT-fJN">
@@ -735,6 +736,7 @@
                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
+                                                    <sortDescriptor key="sortDescriptorPrototype" selector="compare:" sortKey="raise"/>
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="iHF-Gi-HGQ">
@@ -768,6 +770,7 @@
                                             <connections>
                                                 <binding destination="M8H-st-ZHC" name="content" keyPath="arrangedObjects" id="ujP-tb-cbJ"/>
                                                 <binding destination="M8H-st-ZHC" name="selectionIndexes" keyPath="selectionIndexes" previousBinding="ujP-tb-cbJ" id="UCK-1n-x82"/>
+                                                <binding destination="M8H-st-ZHC" name="sortDescriptors" keyPath="sortDescriptors" previousBinding="UCK-1n-x82" id="TBO-sY-SGv"/>
                                             </connections>
                                         </tableView>
                                     </subviews>
